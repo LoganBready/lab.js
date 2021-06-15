@@ -303,15 +303,14 @@ console.log(letterGrade)
 */
 
 //Code Here
-for (let i=1; i <= 100; i++){
-  console.log(i)
-  if (i % 3 === 0) {
-  console.log("Dev") 
-} else if(i % 5 ===0) {
-  console.log("mountain")
-} else if(i % 5 === 0 && i % 3 === 0) {
-  console.log("DevMountain")
-} else {
-  console.log(i)
+for (let i = 1; i <= 100; i++) {
+  if(i % 15 === 0) {
+    console.log('devmountain')
+  } else if (i % 3 === 0) {
+    console.log('dev')
+  } else if (i % 5 === 0) {
+    console.log('mountain')
+  } else {
+    console.log(i)
 }
 }
